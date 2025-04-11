@@ -6,11 +6,35 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Сайт по баням',
+      title: 'Asad Bassseny',
       description: 'Сайт по сборке бань!',
       image: '/images/asadbasseyn.png',
       technologies: ['Django', 'Amazon Web Services', 'Render', 'PostgreSQL'],
       link: 'https://asadbasseyn.uz'
+    },
+    {
+      id: 2,
+      title: 'Grow Fast Grow Deep',
+      description: 'Сайт по обучению английского и турецкого языка!',
+      image: '/images/growfast.png',
+      technologies: ['Django', 'DRF', 'Vue 3', 'AI integrated'],
+      link: 'https://www.growfastgrowdeep.com/en/splash'
+    },
+    {
+      id: 3,
+      title: 'WebWork',
+      description: 'Сайт по программному обеспечению для управления временем и задачами!',
+      image: '/images/webtracker.png',
+      technologies: ['Django', 'DRF', 'Vue 3', 'AI integrated'],
+      link: 'https://www.webwork-tracker.com/'
+    },
+    {
+      id: 4,
+      title: 'Asad Basseyn Company',
+      description: 'Сайт для компании по сборке бань!',
+      image: '/images/asadcompany.png',
+      technologies: ['Django', 'DRF', 'Vue 3', 'AI integrated'],
+      link: 'https://asadqr.netlify.app'
     }
   ];
 

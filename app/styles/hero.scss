@@ -245,5 +245,34 @@
         width: 100%;
       }
     }
+    
+    &__tech {
+      margin-top: 20px;
+      padding: 0 5px;
+      
+      .tech-stack {
+        gap: 8px;
+        justify-content: center;
+        
+        .tech-item {
+          font-size: 0.8rem;
+          padding: 6px 12px;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 480px) {
+    &__tech {
+      .tech-stack {
+        gap: 6px;
+        
+        .tech-item {
+          font-size: 0.75rem;
+          padding: 5px 10px;
+          margin-bottom: 5px;
+        }
+      }
+    }
   }
 } 

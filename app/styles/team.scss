@@ -15,7 +15,32 @@
     border-radius: 50%;
     z-index: 0;
   }
+  .member-portfolio{
+  border: 1px solid  #a777e3;
+  color: #fff;
+  padding: 8px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  top: -6px;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(200, 3, 255, 0.256);
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 24px rgba(255, 0, 204, 0.2);
+  }
   
+  &:active {
+    transform: scale(0.97);
+  }
+  
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(167, 119, 227, 0.4);
+  }
+  }
   &::after {
     content: '';
     position: absolute;

@@ -73,17 +73,6 @@ const Team = () => {
               <div className="member-info">
                 <h3 className="member-name">{member.name}</h3>
                 <p className="member-role">{member.role}</p>
-                <a href={member.portfolio} target="_blank" rel="noopener noreferrer" className="member-portfolio">
-                  <p 
-                  style={{
-                    color: 'blue',
-                    fontSize: '16px',
-                    fontWeight: 'bold',
-                    textDecoration: 'none',
-                    textAlign: 'center',
-                  }}
-                  >Мой сайт</p>
-                </a>
                 <div className="member-social">
                   <a href={member.social.github} target="_blank" rel="noopener noreferrer" className="social-link">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -96,6 +85,12 @@ const Team = () => {
                       <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
                     </svg>
                   </a>
+                  {member.portfolio && (
+                <a href={member.portfolio} target="_blank" rel="noopener noreferrer" className="member-portfolio">
+                  <p 
+                  >Подробнее</p>
+                </a>
+               )}
                 </div>
               </div>
             </div>
