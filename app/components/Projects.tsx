@@ -17,15 +17,15 @@ const Projects = () => {
       title: 'Grow Fast Grow Deep',
       description: 'Сайт по обучению английского и турецкого языка!',
       image: '/images/growfast.png',
-      technologies: ['Django', 'DRF', 'Vue 3', 'AI integrated'],
+      technologies: ['Django', 'DRF','GCP','Nuxt.js', 'AI','Data Science', 'PWD', 'TWD','Pyhton', 'AI integrated'],
       link: 'https://www.growfastgrowdeep.com/en/splash'
     },
     {
       id: 3,
-      title: 'WebWork',
+      title: 'Web Time Tracker',
       description: 'Сайт по программному обеспечению для управления временем и задачами!',
       image: '/images/webtracker.png',
-      technologies: ['Django', 'DRF', 'Vue 3', 'AI integrated'],
+      technologies: ['Django', 'DRF','GCP','Nuxt.js', 'AI','Data Science', 'PWD', 'TWD','Pyhton', 'AI integrated'],
       link: 'https://www.webwork-tracker.com/'
     },
     {
@@ -33,7 +33,7 @@ const Projects = () => {
       title: 'Asad Basseyn Company',
       description: 'Сайт для компании по сборке бань!',
       image: '/images/asadcompany.png',
-      technologies: ['Django', 'DRF', 'Vue 3', 'AI integrated'],
+      technologies: ['Django', 'Amazon Web Services', 'Render', 'PostgreSQL'],
       link: 'https://asadqr.netlify.app'
     }
   ];

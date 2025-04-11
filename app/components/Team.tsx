@@ -6,7 +6,7 @@ const Team = () => {
     {
       id: 1,
       name: 'Alisher Khujanov',
-      role: 'Full Stack Leader Developer',
+      role: 'Full Stack Web engineer',
       image: '/images/Alisher.png',
       social: {
         github: 'https://github.com/AlisherXujanov',
@@ -16,7 +16,7 @@ const Team = () => {
     {
       id: 2,
       name: 'Amir Sherov',
-      role: 'Full Stack Developer',
+      role: 'Full Stack Web Developer',
       image: '/images/Amir.png',
       portfolio: 'https://amirdev.uz',
       social: {
@@ -28,7 +28,7 @@ const Team = () => {
       id: 3,
       name: 'Sobiraliyev Alijon Azimovich',
       image: '/images/alijon.png',
-      role: 'Full Stack Developer',
+      role: 'Full Stack Web Developer',
       social: {
         github: 'https://github.com/alik-web-develop',
         telegram: 'https://t.me/@zxcExit'
@@ -38,7 +38,7 @@ const Team = () => {
       id: 4,
       name: 'Azim',
       image: '/images/alijon.jpg',
-      role: 'Full Stack Developer',
+      role: 'Full Stack Web Developer',
       portfolio: 'https://azimont.uz',
       social: {
         github: 'https://github.com/azim0nt',
