@@ -8,6 +8,7 @@ const Team = () => {
       name: 'Alisher Khujanov',
       role: 'Full Stack Web engineer',
       image: '/images/Alisher.png',
+      portfolio: 'https://github.com/AlisherXujanov',
       social: {
         github: 'https://github.com/AlisherXujanov',
         telegram: 'https://t.me/Alisher_Khujanov'
