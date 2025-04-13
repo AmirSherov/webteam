@@ -28,24 +28,24 @@ const Team = () => {
     {
       id: 3,
       name: 'Sobiraliyev Alijon Azimovich',
-      image: '/images/alijon.png',
+      image: '/images/alijon.jpg',
       role: 'Full Stack Web Developer',
       social: {
         github: 'https://github.com/alik-web-develop',
         telegram: 'https://t.me/@zxcExit'
       }
     },
-    {
-      id: 4,
-      name: 'Azim',
-      image: '/images/alijon.jpg',
-      role: 'Full Stack Web Developer',
-      portfolio: 'https://azimont.uz',
-      social: {
-        github: 'https://github.com/azim0nt',
-        telegram: 'https://t.me/@azim0nt'
-      }
-    }
+    // {
+    //   id: 4,
+    //   name: 'Azim',
+    //   image: '/images/alijon.jpg',
+    //   role: 'Full Stack Web Developer',
+    //   portfolio: 'https://azimont.uz',
+    //   social: {
+    //     github: 'https://github.com/azim0nt',
+    //     telegram: 'https://t.me/@azim0nt'
+    //   }
+    // }
   ];
 
   return (
