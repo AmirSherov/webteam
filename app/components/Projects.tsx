@@ -4,13 +4,28 @@ import Link from 'next/link';
 import { useState, useEffect, useRef } from 'react';
 import '../styles/projects.scss';
 
+interface Project {
+  id: number;
+  title: string;
+  description: string;
+  image: string;
+  technologies: string[];
+  link: string;
+  category: string;
+}
+
+interface Filter {
+  value: string;
+  label: string;
+}
+
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
-  const [visibleProjects, setVisibleProjects] = useState([]);
+  const [visibleProjects, setVisibleProjects] = useState<Project[]>([]);
   const [animateCards, setAnimateCards] = useState(false);
-  const sectionRef = useRef(null);
+  const sectionRef = useRef<HTMLElement | null>(null);
   
-  const projects = [
+  const projects: Project[] = [
     {
       id: 1,
       title: 'Asad Bassseny',
@@ -49,7 +64,7 @@ const Projects = () => {
     }
   ];
   
-  const filters = [
+  const filters: Filter[] = [
     { value: 'all', label: 'Все проекты' },
     { value: 'web', label: 'Веб-сайты' },
     { value: 'education', label: 'Образование' },
@@ -58,8 +73,6 @@ const Projects = () => {
   
   useEffect(() => {
     setAnimateCards(true);
-    
-    // Intersection Observer для анимации при скролле
     const observer = new IntersectionObserver((entries) => {
       if (entries[0].isIntersecting) {
         setAnimateCards(true);
@@ -85,7 +98,6 @@ const Projects = () => {
       setVisibleProjects(filtered);
     }
     
-    // Сбрасываем анимацию при смене фильтра и запускаем её снова
     setAnimateCards(false);
     setTimeout(() => setAnimateCards(true), 50);
   }, [activeFilter]);

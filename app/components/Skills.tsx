@@ -1,12 +1,20 @@
 'use client';
-import { useState, useRef } from 'react';
+import { useState, useRef, ReactNode } from 'react';
 import '../styles/skills.scss';
 
+interface Service {
+  id: number;
+  title: string;
+  description: string;
+  features: string[];
+  icon: ReactNode;
+}
+
 const Skills = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
-  const sectionRef = useRef(null);
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const sectionRef = useRef<HTMLElement | null>(null);
   
-  const toggleCard = (index) => {
+  const toggleCard = (index: number) => {
     if (activeIndex === index) {
       setActiveIndex(null);
     } else {
@@ -14,7 +22,7 @@ const Skills = () => {
     }
   };
 
-  const services = [
+  const services: Service[] = [
     {
       id: 1,
       title: 'Веб-разработка',
