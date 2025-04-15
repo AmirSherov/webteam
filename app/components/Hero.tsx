@@ -37,6 +37,8 @@ const Hero = () => {
             controls={false}
             disablePictureInPicture
             disableRemotePlayback
+            preload="none"
+            poster="/poster.jpg"
           >
             <source src="/background.mp4" type="video/mp4" />
             <source src="/videoplayback.mp4" type="video/mp4" />

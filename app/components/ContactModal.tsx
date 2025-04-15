@@ -56,7 +56,7 @@ const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
           
           <div className="contact-options">
             <a 
-              href="https://t.me/noname_tcp" 
+              href="https://t.me/Alisher_Khujanov" 
               target="_blank" 
               rel="noopener noreferrer"
               className="contact-button telegram"
