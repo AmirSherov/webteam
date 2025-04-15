@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
 }
 
 body {
