@@ -44,7 +44,7 @@ const Team = () => {
       name: 'Amir Sherov',
       role: 'Full Stack Web Developer',
       bio: 'Разработчик полного цикла с опытом создания комплексных веб-решений для бизнеса и индивидуальных проектов.',
-      image: '/images/Amir.png',
+      image: '/images/Amir.jpg',
       portfolio: 'https://amirdev.uz',
       social: {
         github: 'https://github.com/AmirSherov',
